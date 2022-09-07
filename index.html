@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music - Play</title>
+    <link rel="icon" href="./assets/img/img-web.jpg">
+    <link rel="stylesheet" href="./assets/Style/style.css">
+    <link rel="stylesheet" href="./index.js">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets//Style/reponsive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="Music">
+            <!-- List Music -->
+            <div class="Music__lists">
+                <header class="Music__list-header">     
+                    <i class="fa-solid fa-music"></i>
+                        List Music
+                    <i class="fa-solid fa-xmark btn-close"></i>
+                </header> 
+                <div class="Music__list">                      
+                    <div class="Music__list-member">
+                        <div class="Music__list-member-wrap">
+                            <div class="Music__list-member-img" ></div>
+                            <div class="Music__list-member-info">
+                                <h3 class="Music__list-member-info-song">Name Song</h3>
+                                <h3 class="Music__list-member-info-name">Art</h3>
+                            </div>
+                         </div>
+                    </div> 
+                    <div id="wave">
+                       <div class="stroke"></div>
+                       <div class="stroke"></div>
+                       <div class="stroke"></div>
+                       <div class="stroke"></div>
+                       <div class="stroke"></div>
+                   </div>
+                    <div class="Music__list-option">
+                         <i class="fas fa-ellipsis-h"></i>
+                    </div>                            
+                </div>
+            </div>
+        
+            <!-- Header and img -->
+            <header class="Music__header">
+                <div class="Music__header-list">
+                    <i class="fa-solid fa-music Music__header-list-icon"></i> 
+                    <h2 class="Music__header-list-text">Now Playing</h2>
+                    
+                </div>   
+                <div class="Music__header-img"></div>
+            </header>
+            <!-- Singer and Song -->
+            <div class="Music__info">
+                <h3 class="Music__info-nameSong">Play</h3>
+                <h4 class="Music__info-nameSinger">Alan Walker</h4>
+            </div>
+            <!-- Progress -->
+            <div class="Music__progress">
+                <div class="Music__process-current-time">00.00</div>
+                <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+                <div class="Music__process-total-time">00.00</div>
+            </div>
+            <!-- Volume -->
+            <div class="Music__volume">
+                <i class="fa-solid fa-volume-low"></i>
+                <input id="Volume" class="volume-slider" type="range" value="50" step="1" min="0" max="100">
+                <i class="fa-solid fa-volume-high"></i>
+                <audio id="audio" src=""></audio>
+            </div>
+
+            <!-- Button -->
+            <div class="Music__btns">
+                <div class="Music__btn-repeat">
+                    <i class="fa-solid fa-repeat" title="repeat"></i>
+                </div>
+                <div class="Music__btn-prev">
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+                <div class="Music__btn-play-pause">
+                    <div class="icon-play">
+                         <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="icon-pause">
+                      <i class="fa-solid fa-circle-pause"></i>
+                    </div>
+                </div>
+                <div class="Music__btn-next">
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+                <div class="Music__btn-random">
+                    <i class="fa-solid fa-shuffle" title="random"></i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="../Music-Play/index.js"></script>
+    
+</body>
+</html>
