@@ -36,97 +36,97 @@ const app = {
         {
             name : '- Mang Chủng -',
             singer : 'Âm Khuyết Thi Thính',
-            path:'./assets/Music/song0-1.mp3',
+            path:'./assets/music/song0-1.mp3',
             image:'./assets/img/img-0-1.jpg'
         },
         {
             name : '- Tada Koe Hitotsu -',
             singer : 'Rokudenashi',
-            path:'./assets/Music/song0-2.mp3',
+            path:'./assets/music/song0-2.mp3',
             image:'./assets/img/img-0-2.jpg'
         },
         {
             name : '- Zen Zen Zense -',
             singer : 'Your Name OST',
-            path:'./assets/Music/song0-3.mp3',
+            path:'./assets/music/song0-3.mp3',
             image:'./assets/img/img-0-3.jpg'
         },
         {
             name : '- Nandemonaiya -',
             singer : ' Kamishiraishi Mone',
-            path:'./assets/Music/song0-4.mp3',
+            path:'./assets/music/song0-4.mp3',
             image:'./assets/img/img-0-4.jpg'
         },
         {
             name : '- Don\'t You Now Me -',
             singer : 'Ofenbach',
-            path:'./assets/Music/song5.mp3',
+            path:'./assets/music/song5.mp3',
             image:'./assets/img/img-5.jpg'
         },
         {
             name : '- Anh Đứng Từ Chiều - ',
             singer : 'Huy Vạc',
-            path:'./assets/Music/song6.mp3',
+            path:'./assets/music/song6.mp3',
             image:'./assets/img/img-6.jpg'
         },
         {
             name : '- Haru Haru(Piano) -',
             singer : 'An Coong',
-            path:'./assets/Music/song7.mp3',
+            path:'./assets/music/song7.mp3',
             image:'./assets/img/img-7.jpg'
         },
         {
             name : '- Bình Yên Từng Phút Giây -',
             singer : 'Sơn Tùng',
-            path:'./assets/Music/song8.mp3',
+            path:'./assets/music/song8.mp3',
             image:'./assets/img/img-8.jpg'
         },
         {
             name : '- Cưới Thôi -',
             singer : 'Masew',
-            path:'./assets/Music/song9.mp3',
+            path:'./assets/music/song9.mp3',
             image:'./assets/img/img-9.jpg'
         },
         {
             name : '- Mộng Tàn Hoa -',
             singer : 'Thiên Tú x Dino',
-            path:'./assets/Music/song10.mp3',
+            path:'./assets/music/song10.mp3',
             image:'./assets/img/img-10.jpg'
         },
         {
             name : '- Rendezvous -',
             singer : 'Deamn',
-            path:'./assets/Music/song11.mp3',
+            path:'./assets/music/song11.mp3',
             image:'./assets/img/img-11.jpg'
         },
         {
             name : '- Something Just Like This -',
             singer : 'The Chainsmokers & Coldplay',
-            path:'./assets/Music/song12.mp3',
+            path:'./assets/music/song12.mp3',
             image:'./assets/img/img-12.jpg'
         },
         {
             name : '- Never Be Alone -',
             singer : 'TheFatRat',
-            path:'./assets/Music/song13.mp3',
+            path:'./assets/music/song13.mp3',
             image:'./assets/img/img-13.jpg'
         },
         {
             name : '- Try -',
             singer : 'Pink',
-            path:'./assets/Music/song14.mp3',
+            path:'./assets/music/song14.mp3',
             image:'./assets/img/img-14.jpg'
         },
         {
             name : '- The Night -',
             singer : 'Avicii',
-            path:'./assets/Music/song15.mp3',
+            path:'./assets/music/song15.mp3',
             image:'./assets/img/img-15.jpg'
         },
         {
             name : '- All Falls Down -',
             singer : 'Alan Walker',
-            path:'./assets/Music/song16.mp3',
+            path:'./assets/music/song16.mp3',
             image:'./assets/img/img-12.jpg'
         },
         
